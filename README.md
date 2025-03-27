@@ -1,4 +1,4 @@
-Functionless is an attempt to compile TypeScript code into AWS Cloud Formation.
+Functionless is an attempt to compile TypeScript code into AWS "Functionless" definitions (e.g. Step Functions or Event Bridge Pipes).
 
 It primarily focused on transforming a TypeScript function into an AWS Step Function workflow definition, but Step Functions weren't Turing Complete (lacked JSONAta back then), so ultimately failed.
 
